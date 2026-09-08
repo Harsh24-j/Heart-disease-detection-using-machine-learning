@@ -1,39 +1,62 @@
 # Heart Disease Detection
 
-This project uses machine learning techniques in Python to predict the presence of heart disease based on various medical attributes.
+A Python machine-learning project for exploring patient attributes and predicting the presence of heart disease from an anonymized dataset.
 
-## Files
-- `heart_disease_prediction_using_machine_learning_with_python.py`: Main Python script for data analysis, model training, and prediction.
-- `heart.csv`: Dataset containing patient data and heart disease information.
-- `Detection.pdf`: Documentation or report related to the project.
-- `Heart Disease Detection Recording.mp4` and `Video testimonial.mp4`: Video resources related to the project.
+## Project Workflow
 
-## How to Run
-1. Make sure you have Python installed (preferably 3.7 or above).
-2. Install required libraries (e.g., pandas, numpy, scikit-learn, matplotlib):
-   ```powershell
-   pip install pandas numpy scikit-learn matplotlib
-   ```
-3. Run the main script:
-   ```powershell
-   python heart_disease_prediction_using_machine_learning_with_python.py
-   ```
+```text
+Dataset
+   ↓
+Data preprocessing
+   ↓
+Exploratory analysis & visualization
+   ↓
+Model training
+   ↓
+Model evaluation
+   ↓
+Prediction
+```
+
+## What the Project Covers
+
+- Data preprocessing
+- Exploratory data analysis and visualization
+- Machine-learning model training
+- Model evaluation
+- Heart-disease prediction
 
 ## Dataset
-The `heart.csv` file contains anonymized patient data with features such as age, sex, chest pain type, blood pressure, cholesterol, and more. The target variable indicates the presence of heart disease.
 
-## Project Overview
-- Data preprocessing and visualization
-- Model training using machine learning algorithms
-- Evaluation of model performance
-- Prediction of heart disease risk
+The repository includes `heart.csv`, containing anonymized patient records with attributes such as age, sex, chest-pain type, blood pressure, and cholesterol. The target indicates the presence of heart disease.
 
-## Requirements
+## Technology
+
 - Python 3.7+
 - pandas
-- numpy
+- NumPy
 - scikit-learn
-- matplotlib
+- Matplotlib
 
-## License
-This project is for educational purposes only.
+## Files
+
+- `heart_disease_prediction_using_machine_learning_with_python.py` - main analysis, training, and prediction script
+- `heart.csv` - dataset
+- `Detection.pdf` - project documentation/report
+- video files - project presentation/demo material
+
+## Run Locally
+
+```bash
+pip install pandas numpy scikit-learn matplotlib
+python heart_disease_prediction_using_machine_learning_with_python.py
+```
+
+## Important Note
+
+This is an educational machine-learning project. Predictions from this repository should not be interpreted as medical advice or used for clinical decision-making.
+
+## Author
+
+**Harsh Shrivastava**  
+[GitHub](https://github.com/Harsh24-j) · [LinkedIn](https://linkedin.com/in/harshshrivastava24)
